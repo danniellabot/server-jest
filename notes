@@ -1,0 +1,54 @@
+// describe("POST register and login", () => {
+
+
+//   //   test("POST /api/sub/register ERR", async () => {
+//   // 	const modelSample = {}
+//   // 	//const model = new register(modelSample)
+//   // 	//expect(model).toThrow(new createError(500, "Missing required fields"))
+
+//   // 	expect(() => {
+//   // 		register(modelSample)
+//   // 	 }).toThrow(new createError(500, "Missing required fields"));
+//   //   })
+//   // create
+//   // find email
+//   // compare password
+
+//   //   const randomPassword = "admin password";
+//   //   const hashed = await bcrypt.hash(randomPassword, 10);
+//   //   await supertest(app).post("/api/sub/register").send({
+//   //     name: "User Admin",
+//   //     email: "admin@gmail.com",
+//   //     password: hashed,
+//   //   });
+
+//   //   const req = {
+//   // 	  body: {
+//   // 		  email: "admin@gmail.com"
+//   // 	  }
+//   //   }
+//   //   const findUser = await User.findOne({
+//   //     email: req.body.email
+//   //   });
+//   //   expect(findUser.name).toBeTruthy();
+//   //   expect(findUser.email).toBeTruthy();
+//   //   expect(bcrypt.compare(randomPassword, findUser.password)).toBeTruthy();
+// });
+
+
+// test("it should register user in db", async () => {
+//   const randomPassword = "admin password";
+//   const hashed = await bcrypt.hash(randomPassword, 10);
+//   await supertest(app).post("/api/sub/register").send({
+//     name: "User Admin",
+//     email: "admin@gmail.com",
+//     password: hashed,
+//   });
+
+  // const findUser = await User.findOne({
+  //   email: "admin@gmail.com",
+  // });
+  // expect(findUser.name).toBe("User Admin");
+  // expect(findUser.email).toBe("admin@gmail.com");
+  // expect(bcrypt.compare(randomPassword, findUser.password)).toBeTruthy();
+// });

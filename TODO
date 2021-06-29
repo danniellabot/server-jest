@@ -1,0 +1,11 @@
+
+implement try catch as server file
+implement a jest for mongo connection 
+
+
+DONE
+export express handlers outside another file,test it works
+try the server test js again by importing it directly   
+take out try catch off login function
+jest for login function 
+mock jwt return   
